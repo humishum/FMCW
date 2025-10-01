@@ -1,9 +1,9 @@
 # {WIP} FMCW 
-Explorations in FMCW Processing 
+Explanations and Explorations in FMCW Processing 
 
 # What is FMCW?
 
-Frequency Modulated Continuous Wave (FMCW) is a type of transmission system in which a "continuous" carrier is swept/chirped in frequency in a known manner(Though there is recent research in pseudo-random frequency sweeps!). This is typically used in ranging systems, and opens the door to doppler processing, which gives a true measure of a target's velocity. This is largely in contrast to pulsed transmission systems in which the system would send out an impulse signal at known times, and measure the time of propogotation. 
+Frequency Modulated Continuous Wave (FMCW) is a type of ranging system in which a "continuous" carrier is swept/chirped in frequency in a known manner(Though there is recent research in pseudo-random frequency sweeps!). This system opens the door to doppler processing, which gives a true measure of a target's velocity, which is largely in contrast to pulsed transmission systems,  in which the system would send out an impulse signal, and measures the time of propagation. 
 
 --- 
 
