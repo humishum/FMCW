@@ -34,12 +34,12 @@ Let's visualize below what a signal(in the time domain) looks like with a quadra
 ![A signal with varying phase](images/varying_phase.png)
 We can define a function to calculate pahse over time as. Where `f_c_hz` is the carrier frequency, and alpha is our chirp rate(rate at which we want our frequency to sweep)
 
-'''python 
+```python 
 def phi_tx(): return 2*np.pi * (f_c_hz + (1/2 * alpha*t**2))
 t_phase = np.linspace(0, T_s, n_samples)
 plt.plot(t_phase*1e6, np.exp(1j*phi_tx(t_phase, f_c_hz, alpha)))
 
-''' 
+```
 
 Now this signal will propogate out of the system, to a target and return back, with some time delay, which we will refer to as `τ`. 
 
